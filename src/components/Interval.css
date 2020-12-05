@@ -1,0 +1,9 @@
+.interval span {
+    margin: 0 px;
+}
+
+.interval input  {
+    font-size: 1.1rem;
+    margin: 0 10px;
+    width: 100px;
+}

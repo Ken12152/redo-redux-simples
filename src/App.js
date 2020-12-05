@@ -1,13 +1,15 @@
 import './App.css';
 import Card from './components/Card'
 
+import Interval from './components/Interval'
+
 function App() {
     return (
         <div className="App">
             <h1>Redux-Redo</h1>
 
             <div className='line'>
-                <Card title="Card1" Red>Contents</Card>
+                <Interval></Interval>
             </div>
 
             <div className='line'>
