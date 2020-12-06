@@ -15,7 +15,7 @@ function Random(props) {
 }
 
 function mapStateToProps(state) {
-    return { ...state.numbers }
+    return { ...state.calculateNumbers }
 }
 
 export default connect(mapStateToProps)(Random)

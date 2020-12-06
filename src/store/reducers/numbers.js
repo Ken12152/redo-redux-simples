@@ -3,7 +3,7 @@ import {
     NUM_MAX_CHANGED
 } from '../actions/acionsType'
 
-const defaultState = {
+export const defaultState = {
     Min: 0, 
     Max: 100
 }
