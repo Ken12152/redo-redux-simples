@@ -8,7 +8,6 @@ import { minChange, maxChange } from '../store/actions/numbers'
 function Interval(props) {
     // const Min = 0, Max = 100
     const {Min, Max} = props
-    props.changeMin(25)
 
     return (
         <Card title="Numbers" Red>
@@ -20,7 +19,8 @@ function Interval(props) {
                 </span>
                 <span>
                     <strong>Max:</strong>
-                    <input type="number" value={ Max } />
+                    <input type="number" value={ Max } 
+                        onChange={ e => props.changeMax(+e.target.value) } />
                 </span>
             </div>
         </Card>
