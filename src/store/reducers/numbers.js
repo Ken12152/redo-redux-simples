@@ -5,7 +5,7 @@ import {
 
 const defaultState = {
     Min: 0, 
-    Max: 1000
+    Max: 100
 }
 
 export default function(state = defaultState, action) {
